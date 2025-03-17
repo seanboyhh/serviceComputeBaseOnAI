@@ -4,7 +4,7 @@ Created on Nov 23, 2020
 
 @author: DingYang
 '''
-from pattern.pattern import Solution
+from pattern import Solution
 
 def aMapping(patternSeq,servPatterns):
     solution=Solution()

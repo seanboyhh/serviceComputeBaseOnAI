@@ -1,77 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d107e151-a1e7-4f15-bcb5-5fee82f63fe1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/comparisonExperient/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comparisonExperient/o_pso.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/NLP_requirement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/ReqPatternMatching.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/atomService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/bilateralPatternMapping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/patternExcavate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/reqAndPattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/reqPatternExcavate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/requirement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/servPatternExcavate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/similarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/serviceComputeBaseOnAI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pydevproject" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+    <list default="true" id="de84ec41-42f8-41ee-ac01-9ffffbdaed55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/serviceComputeBaseOnAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serviceComputeBaseOnAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_17_2025_8_38_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_17_2025_8_38_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_17_2025_8_38_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_17_2025_8_38_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/NLP_requirement.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/NLP_requirement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/ReqPatternMatching.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/ReqPatternMatching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/atomService.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/atomService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/bilateralPatternMapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/bilateralPatternMapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/pattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/pattern.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/patternExcavate.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/patternExcavate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/reqAndPattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/reqAndPattern.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/reqPatternExcavate.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/reqPatternExcavate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/requirement.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/requirement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/servPatternExcavate.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/servPatternExcavate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/similarity.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "seanboyhh"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;seanboyhh&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/seanboyhh/serviceComputeBaseOnAI.git",
-    "accountId": "a4a40243-a5a7-4bf7-8e10-0481da46a569"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/seanboyhh/serviceComputeBaseOnAI.git&quot;,
+    &quot;accountId&quot;: &quot;6cf3d2f1-0c08-4f0a-a325-cea8af5a7d88&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
-  <component name="ProjectId" id="2uRbsbnCVduy20bWsEDYwp5gCbL" />
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2uUuktTnlnPvM5NPOYPcrpoVoZm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/workspace/java/test4/serviceComputeBaseOnAI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\java\test4\serviceComputeBaseOnAI" />
-      <recent name="D:\workspace\java\test4\serviceComputeBaseOnAI\test" />
-      <recent name="D:\workspace\java\test4\serviceComputeBaseOnAI\model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -85,16 +92,31 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d107e151-a1e7-4f15-bcb5-5fee82f63fe1" name="Changes" comment="" />
-      <created>1742214541205</created>
+      <changelist id="de84ec41-42f8-41ee-ac01-9ffffbdaed55" name="Changes" comment="" />
+      <created>1741955826521</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1742214541205</updated>
-      <workItem from="1742214542386" duration="519000" />
+      <updated>1741955826521</updated>
+      <workItem from="1741955827739" duration="186000" />
+      <workItem from="1742315620829" duration="964000" />
+      <workItem from="1743402862254" duration="2001000" />
+      <workItem from="1760065712813" duration="4282000" />
+      <workItem from="1767696642426" duration="1333000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

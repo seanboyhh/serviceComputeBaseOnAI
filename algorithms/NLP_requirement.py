@@ -14,19 +14,19 @@ class LtpParser:
     def __init__(self):
         LTP_DIR = "F:/temp/ltp_data_v3.4.0"
         self.segmentor = Segmentor()    # 分词
-        self.segmentor.load(os.path.join(LTP_DIR, "cws.model"))
+        self.segmentor.load(os.path.join(LTP_DIR, "cws.models"))
 
         self.postagger = Postagger()    # 词性标注
-        self.postagger.load(os.path.join(LTP_DIR, "pos.model"))
+        self.postagger.load(os.path.join(LTP_DIR, "pos.models"))
 
         self.parser = Parser()  # 句法依存分析
-        self.parser.load(os.path.join(LTP_DIR, "parser.model"))
+        self.parser.load(os.path.join(LTP_DIR, "parser.models"))
 
         self.recognizer = NamedEntityRecognizer()   # 命名实体识别
-        self.recognizer.load(os.path.join(LTP_DIR, "ner.model"))
+        self.recognizer.load(os.path.join(LTP_DIR, "ner.models"))
 
         self.labeller = SementicRoleLabeller()  # 语义角色标注
-        self.labeller.load(os.path.join(LTP_DIR, 'pisrl_win.model'))
+        self.labeller.load(os.path.join(LTP_DIR, 'pisrl_win.models'))
 
     # 依存句法分析【为句子中的每个词语维护一个保存句法依存儿子节点的字典】
     def build_parse_child_dict(self, words, postags): # words：分词后的结果；postags：词性标注后的结果；arcs：依存句法分析树
