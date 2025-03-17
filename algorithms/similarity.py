@@ -15,13 +15,13 @@ def similarity():
     model = word2vec.Word2Vec(sentences, vector_size=250)
     
     # 保存模型，供以后使用
-    model.save("word2vec.model")
+    model.save("word2vec.models")
  
     # 模型读取
-    # model = word2vec.Word2Vec.load("your_model_name")
+    # models = word2vec.Word2Vec.load("your_model_name")
  
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
-    model = models.Word2Vec.load('word2vec.model')
+    model = models.Word2Vec.load('word2vec.models')
  
     print("提供 3 种测试模式\n")
     print("输入一个词，则去寻找前一百个该词的相似词")
